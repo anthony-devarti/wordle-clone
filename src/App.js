@@ -1,32 +1,16 @@
 import React from 'react';
 import './App.css';
 import Board from './Components/Board';
+import Submit from './Components/Sumbit';
 
 function App() {
-  //   "boardState": [
-  //       "",
-  //       "",
-  //       "",
-  //       "",
-  //       "",
-  //       ""
-  //   ],
-  //   "evaluations": [
-  //       null,
-  //       null,
-  //       null,
-  //       null,
-  //       null,
-  //       null
-  //   ],
-  //   "rowIndex": 0,
-  //   "solution": "pants"
-  // }
+ 
 
   return (
     <div className="App">
       <h1>WORDULL</h1>
       <Board />
+      <Submit />
     </div>
   );
 }

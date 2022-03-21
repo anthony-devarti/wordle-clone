@@ -1,0 +1,7 @@
+.tile {
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 0.5rem solid;
+    border-color: black;
+    background-color: aliceblue;
+}

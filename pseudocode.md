@@ -38,3 +38,4 @@ if check for correct locatioin === true ---> green
 if check for correct location === false ---> yellow
 repeat this process for indexes 0-4
 
+always compare lowercase

@@ -1,7 +1,21 @@
 .tile {
     width: 4.5rem;
     height: 4.5rem;
-    border: 0.5rem solid;
+    border: 0.1rem solid;
     border-color: black;
     background-color: aliceblue;
+    text-align: center;
+    font-size: x-large;
+}
+
+.tile .correct {
+    background-color: green;
+}
+
+.tile .included {
+    background-color: yellow;
+}
+
+.tile .wrong {
+    background-color: red;
 }

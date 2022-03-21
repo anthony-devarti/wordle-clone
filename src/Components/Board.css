@@ -1,8 +1,10 @@
 .board {
     width: 30rem;
-    height: 32rem;
+    height: 35rem;
     background-color: aquamarine;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    vertical-align: middle;
 }
